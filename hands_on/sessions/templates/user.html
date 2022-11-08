@@ -1,0 +1,11 @@
+{% block content %}
+
+{% if 'username' in session %}
+    <p id="a">Logged in as {{session["username"]}}</p>
+    <a href = '/logout'>logout</a>
+{% else %}
+    <p id="b">You are not logged in</p>
+    <br><a href = '/login'>login</a>
+{% endif %}
+
+{% endblock %}

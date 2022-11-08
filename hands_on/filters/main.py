@@ -1,0 +1,1 @@
+from myflaskproj import app

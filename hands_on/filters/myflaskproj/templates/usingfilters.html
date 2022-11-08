@@ -1,0 +1,9 @@
+<h1> Usage of various Jinja Filters in Templates </h1>
+<ul>
+    <li>Round : {{ data.round | round(0, "ceil") }}</li>
+    <li>"Dictsort : {{ data.dictsort | dictsort(by='value', reverse=True) }}</li>
+    <li>Map : {{ data.map | map('capitalize') | join(', ') }}</li>
+    <li>Replace : {{ data.replace | replace('old', 'new') }}</li>
+    <li>ToJson : {{ data.tojson | tojson }}</li>
+    <li>EvenFilter : {{ data.evenfilter | evenFilter }}</li>
+</ul>  

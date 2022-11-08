@@ -1,0 +1,4 @@
+flask
+pytest
+request
+bs4

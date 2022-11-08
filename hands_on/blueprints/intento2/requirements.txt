@@ -1,0 +1,7 @@
+flask
+Flask-SQLAlchemy
+Flask-Migrate
+flask-marshmallow
+Flask-Cors
+pytest
+requests

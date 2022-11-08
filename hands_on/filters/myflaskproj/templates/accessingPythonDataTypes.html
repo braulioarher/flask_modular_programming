@@ -1,0 +1,22 @@
+<h1> Accessing Python Data Types in Templates </h1>
+<ul>
+<li>String : {{ data.str }}</li>
+<li>Integer : {{ data.int }}</li>
+<li>Float : {{ data.float }}</li>
+<li>'List : {{ data.list }}</li>
+<li>Second element of List : {{ data.list.1 }}</li>
+<li>Tuple : {{ data.tuple }}</li>
+<li>Third element of Tuple : {{ data.tuple.2 }}</li>
+<li>'Email of Dictionary Object : {{ data.dict.email }}</li>
+<li>Boolean : {{ data.bool }}</li>
+<li>None : {{ data.none }}</li>
+<li> Elements of a Set :
+<ul>
+{% for element in data.set %}
+<li> {{ element }} </li>
+{% endfor %}
+</ul>
+</li>
+</ul>
+    
+    

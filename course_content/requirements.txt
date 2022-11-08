@@ -1,0 +1,6 @@
+flask
+flask-sqlalchemy
+Flask-Migrate
+gevent
+gunicorn
+uWSGI
